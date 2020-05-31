@@ -13,7 +13,7 @@ ERSP
  5.compute_grand_average_ersp: allows users to compute the grand averaged ERSP.
  6.plot_grand_average_ersp: allows users to plot the grand averaged ERSP as a time - frequency plot.
 
-These ERP / ERSP analyses were the primary goal of this package. Next, I will develop functions that incorporate the ERPs and ERSPs. More and more research focuses on the relation between ERPs and ERSPs to infer spectral dynamics (see Yordanova et al., 2001). I will develop a function that allows users to do this. For instance, one could enter a certain ERP (e.g. P3) and a certain ERSP of interest (e.g. Alpha: 8 - 12 Hz.). The function cor_erp_ersp will correlate those features and visualize the correlations in a correlation table.
+These ERP / ERSP analyses were the primary goal of this package. Next, I will develop functions that incorporate the ERPs and ERSPs. More and more research focuses on the relation between ERPs and ERSPs to infer spectral dynamics (see Yordanova et al., 2001). I will develop a function that allows users to do this. For instance, one could enter a certain ERP (e.g. P3) and a certain ERSP of interest (e.g. Alpha: 8 - 12 Hz.). The function correlate_erp_ersp will correlate those features and visualize the correlations in a correlation table.
 
  7. correlate_erp_ersp 
  
